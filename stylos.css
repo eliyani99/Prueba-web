@@ -1,0 +1,56 @@
+body {
+    font-family: 'Rockwell', serif;
+    background-image: url('iguazú.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    }
+    
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px; 
+    }
+    
+    .dora-image {
+        width: 100px; 
+        height: auto; 
+        vertical-align: middle; 
+        background-position: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #bceca6;
+        border-radius: 4px;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f377de;
+        color: rgb(82, 75, 75);
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #d0e6e3;
+    }
+    
